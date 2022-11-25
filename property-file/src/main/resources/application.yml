@@ -1,0 +1,3 @@
+spring:
+  config:
+    import: classpath:audit-event-type.yml

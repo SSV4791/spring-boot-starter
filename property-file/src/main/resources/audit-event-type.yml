@@ -1,0 +1,16 @@
+audit:
+  event-types:
+    create-account:
+      description: создание счета
+      params:
+        - id
+        - name
+    update-account:
+      description: изменение счета
+      params:
+        - id
+        - name
+    delete-account:
+      description: удаление счета
+      params:
+        - id
